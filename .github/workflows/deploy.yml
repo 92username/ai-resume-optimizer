@@ -27,12 +27,11 @@ jobs:
         username: ${{ secrets.VPS_USER }}
         key: ${{ secrets.VPS_KEY }}
         script: |
-          docker pull ${{ secrets.DOCKER_USERNAME }}/ai-resume-optimizer:latest
-          docker stop ai-resume-optimizer || true && docker rm ai-resume-optimizer || true
-          docker run -d --name ai-resume-optimizer \
+            docker pull ${{ secrets.DOCKER_USERNAME }}/ai-resume-optimizer:latest
+            docker stop ai-resume-optimizer || true
+            docker rm ai-resume-optimizer || true
+            docker run -d --name ai-resume-optimizer \
             -e OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} \
             -e OPENAI_MODEL=${{ secrets.OPENAI_MODEL }} \
-
             -p 8501:8501 \
             ${{ secrets.DOCKER_USERNAME }}/ai-resume-optimizer:latest
-
