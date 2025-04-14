@@ -42,7 +42,7 @@ def generate_text_openai(
         prompt = f"""
 Você é um assistente especializado em gerar textos para candidaturas de emprego. 
 Crie um texto com aproximadamente 1500 caracteres que combine as informações
-abaixo, otimizando-o para passar por sistemas ATS e destacando palavras-chave 
+abaixo, otimizando-o e destacando palavras-chave 
 importantes:
 
 - Descrição da Vaga: {job_description}
