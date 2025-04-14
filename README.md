@@ -1,6 +1,6 @@
 # AI Resume Optimizer
 
-**Otimize seu currículo com inteligência artificial, de forma ética e eficaz.**
+**Otimize seu currículo com inteligência artificial de forma eficaz.**
 
 Este projeto oferece uma ferramenta de análise de currículo que aplica boas práticas de otimização com base em palavras-chave relevantes para sistemas de triagem automática, como ATS (Applicant Tracking Systems). A proposta é ajudar candidatos a posicionarem melhor seus currículos.
 
