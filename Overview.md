@@ -2,7 +2,6 @@
 
 1. **Main Objective**  
    - Build an application (initially using *Streamlit*) that generates a text of up to 1500 characters, merging the user’s tech stack with the requirements of an internship/job position.  
-   - This text must include important *keywords* so it won’t be filtered out by Applicant Tracking Systems (ATS), such as Gupy.
 
 2. **Scope and Features**  
    1. **Data Input**  
@@ -58,4 +57,4 @@
 
 ---
 
-**Summary**: The goal is to create a tool to help candidates adapt their resumes or cover letters for each job posting, ensuring the right keywords are present to pass ATS filters. We will use *Streamlit* for the interface and Python for text processing. Our immediate focus is on organizing the workflow, anticipating potential challenges, and ensuring the final output is a coherent, keyword-rich text within the 1500-character limit.
+**Summary**: The goal is to create a tool to help candidates adapt their resumes or cover letters for each job posting, ensuring the right keywords are present. We will use *Streamlit* for the interface and Python for text processing. Our immediate focus is on organizing the workflow, anticipating potential challenges, and ensuring the final output is a coherent, keyword-rich text within the 1500-character limit.
