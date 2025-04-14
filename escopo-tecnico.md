@@ -1,4 +1,4 @@
-## 📌 Objetivo do Projeto
+## Objetivo do Projeto
 
 Uma aplicação funcional como prova de conceito para consolidar práticas DevOps modernas:
 
@@ -11,7 +11,7 @@ Uma aplicação funcional como prova de conceito para consolidar práticas DevOp
 
 ---
 
-## ⚙️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 | Camada        | Tecnologia               | Função Principal                                   |
 |---------------|--------------------------|----------------------------------------------------|
@@ -28,7 +28,7 @@ Uma aplicação funcional como prova de conceito para consolidar práticas DevOp
 
 ---
 
-## 🏗️ Arquitetura do Sistema
+## Arquitetura do Sistema
 
 - **Usuário** acessa `https://resume.tamanduas.dev`
 - **NGINX** redireciona o tráfego e gerencia HTTPS (SSL)
@@ -37,7 +37,7 @@ Uma aplicação funcional como prova de conceito para consolidar práticas DevOp
 
 ---
 
-## 🔁 Fluxo DevOps
+## Fluxo DevOps
 
 1. Código versionado no GitHub (`main`)
 2. Commits acionam o **workflow de deploy** via GitHub Actions
@@ -46,7 +46,7 @@ Uma aplicação funcional como prova de conceito para consolidar práticas DevOp
 
 ---
 
-## ✅ Conquistas Técnicas
+## Conquistas Técnicas
 
 - Deploy **100% automatizado**
 - App acessível via domínio com HTTPS
