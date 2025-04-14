@@ -1,3 +1,5 @@
+[![Deploy to VPS](https://github.com/92username/ai-resume-optimizer/actions/workflows/deploy.yml/badge.svg)](https://github.com/92username/ai-resume-optimizer/actions/workflows/deploy.yml)
+
 # AI Resume Optimizer
 
 **Otimize seu currículo com inteligência artificial de forma eficaz.**
