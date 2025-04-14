@@ -1,5 +1,17 @@
-[![Deploy to VPS](https://github.com/92username/ai-resume-optimizer/actions/workflows/deploy.yml/badge.svg)](https://github.com/92username/ai-resume-optimizer/actions/workflows/deploy.yml)
+[![Deploy to VPS](https://github.com/92username/ai-resume-optimizer/actions/workflows/deploy.yml/badge.svg)](https://github.com/92username/ai-resume-optimizer/actions/workflows/deploy.yml) [![Pylint](https://github.com/92username/ai-resume-optimizer/actions/workflows/pylint.yml/badge.svg)](https://github.com/92username/ai-resume-optimizer/actions/workflows/pylint.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5af46814f5704138a7066c1d23abf174)](https://app.codacy.com/gh/92username/ai-resume-optimizer/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
+[![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/github/license/92username/ai-resume-optimizer)](LICENSE)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/92username/ai-resume-optimizer)
+![Last Commit](https://img.shields.io/github/last-commit/92username/ai-resume-optimizer)
+
+![Docker stats](https://img.shields.io/badge/Docker%20/%20stats-blue?logo=docker)
+![Docker Image Size (latest)](https://img.shields.io/docker/image-size/user92/ai-resume-optimizer/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/user92/ai-resume-optimizer)
+![Docker Image Version](https://img.shields.io/docker/v/user92/ai-resume-optimizer?sort=semver)
+
+ ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 # AI Resume Optimizer
 
 **Otimize seu currículo com inteligência artificial de forma eficaz.**
@@ -17,14 +29,9 @@ Este projeto oferece uma ferramenta de análise de currículo que aplica boas pr
 
 ---
 
-## 📦 Tecnologias Utilizadas
+## 🌐 Acesse diretamente clicando na badge abaixo:
+[![Hostinger](https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white)](http://147.79.82.234:8501)
 
-- [Python 3.10+](https://www.python.org/)
-- [Streamlit](https://streamlit.io/)
-- [OpenAI API (GPT-4o)](https://platform.openai.com/)
-- [Docker](https://www.docker.com/) (para deploy em container)
-
----
 
 ## 🚀 Como Executar Localmente
 
@@ -68,18 +75,6 @@ $ docker run -d -p 8501:8501 --env-file .env ai-resume-optimizer
 
 - **Auxiliar candidatos** a apresentar seus perfis de forma mais estratégica.
 - **Promover boas práticas** de escrita de currículo.
-
----
-
-## 📁 Estrutura
-```
-ai-resume-optimizer/
-├── Dockerfile
-├── README.md
-├── form.py         
-├── requirements.txt
-└── .env  
-```
 
 ---
 
